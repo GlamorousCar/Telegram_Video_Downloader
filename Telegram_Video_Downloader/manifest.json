@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "TG Web Video Downloader",
+  "version": "1.0",
+  "description": "Скачивает зашифрованные видео из Telegram Web",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "*://web.telegram.org/*"
+  ],
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
